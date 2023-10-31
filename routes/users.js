@@ -38,3 +38,5 @@ router.delete("/:key", async function (req, res, next) {
   await users.delete(req.params.key);
   res.end();
 });
+
+module.exports = router;
